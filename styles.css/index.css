@@ -1,0 +1,80 @@
+.content-box {
+  display: flex;
+  /* background-color: aqua; */
+  align-items: center;
+
+  width: 100vw;
+  height: 90vh;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  /* background-color: aquamarine; */
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  word-wrap: break-word;
+  list-style: none;
+}
+.left-content h1 {
+  font-size: 5vw;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  /* background-color: blanchedalmond; */
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+}
+/* .left-content h3 {
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+} */
+
+.right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-pic {
+  width: 40vw;
+}
+
+/*Animation*/
+.line {
+  margin: 0 auto;
+  border-right: 2px solid rgb(44, 43, 42);
+
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-size: 1.6vw;
+
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.anim-typewriter {
+  animation: typewriter 3s steps(50) 1s 1 normal both,
+    blinkTextCursor 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 25em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

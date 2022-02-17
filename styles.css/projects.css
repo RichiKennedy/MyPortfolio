@@ -1,0 +1,26 @@
+section.media-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cyan;
+  width: 100vw;
+  height: 80vh;
+}
+
+ul.media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  height: 80vh;
+  background-color: darkblue;
+  flex-wrap: wrap;
+}
+
+.media li {
+  background-color: darkorchid;
+  width: 20vw;
+  height: 20vh;
+  list-style: none;
+}
