@@ -1,80 +1,73 @@
-.content-box {
-  display: flex;
-  /* background-color: aqua; */
-  align-items: center;
+.index-body::before {
+  content: "";
+  position: fixed;
+  background-color: #eee7e1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 
+  /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.index-box {
   width: 100vw;
-  height: 90vh;
-}
-
-.left-content {
+  height: 80vh;
   display: flex;
   align-items: center;
-  /* background-color: aquamarine; */
+  justify-content: center;
+  /* background-color: darkorchid; */
+}
+
+.left1 {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  word-wrap: break-word;
-  list-style: none;
-}
-.left-content h1 {
-  font-size: 5vw;
-  width: 100%;
-  margin: 5px;
-  text-align: center;
-  /* background-color: blanchedalmond; */
-  font-family: "Playfair Display", serif;
-  margin-bottom: 30px;
-}
-/* .left-content h3 {
-  font-size: 30px;
-  margin: 5px;
-  text-align: center;
-} */
-
-.right-content {
-  display: flex;
   align-items: center;
+  width: 40%;
+
+  font-size: 10px;
+  color: rgb(44, 43, 42);
+  margin-top: 10px;
+}
+
+.left1 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.left1 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.right1 {
+  display: flex;
+  flex-direction: column;
+
   justify-content: center;
-}
-.my-pic {
-  width: 40vw;
-}
 
-/*Animation*/
-.line {
-  margin: 0 auto;
-  border-right: 2px solid rgb(44, 43, 42);
+  list-style: none;
 
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-  font-size: 1.6vw;
-
-  text-align: center;
-  flex-wrap: wrap;
+  text-transform: capitalize;
+  width: 60%;
+  height: 80vh;
+  gap: 10px;
 }
 
-.anim-typewriter {
-  animation: typewriter 3s steps(50) 1s 1 normal both,
-    blinkTextCursor 500ms steps(50) infinite normal;
-}
+.right1 li a {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 10em;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: left;
+  color: rgb(44, 43, 42);
 
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 25em;
-  }
+  /* transform: translateX(-50%);
+  transition: transform 0.6s ease-in; */
 }
-
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
+.right1 li:hover {
+  font-style: italic;
+  font-weight: 900;
 }

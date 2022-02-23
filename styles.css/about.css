@@ -1,0 +1,125 @@
+.about-body::before {
+  content: "";
+  position: fixed;
+  background-color: #eee7e1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.content-box1 {
+  display: flex;
+
+  align-items: center;
+  color: rgb(44, 43, 42);
+  width: 100vw;
+  height: 90vh;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  height: 77vh;
+  width: 100%;
+  word-wrap: break-word;
+  list-style: none;
+}
+.left-content h1 {
+  font-size: 100px;
+  font-family: "Julius Sans One", sans-serif;
+  text-transform: capitalize;
+  animation-name: about;
+  animation-duration: 1s;
+  /* transform: translateX(-179%); */
+}
+@keyframes about {
+  from {
+    transform: translateX(-179%);
+    transition: ease-in;
+  }
+  to {
+    transform: translateX(0%);
+    transition: ease-in;
+  }
+}
+@keyframes about-pic {
+  from {
+    transform: scale(0.1);
+    transition: ease-in;
+  }
+  to {
+    transition: ease-in;
+    transform: scale(1);
+  }
+}
+
+.left-content h2 {
+  font-size: 3vw;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  /* background-color: blanchedalmond; */
+  font-family: "Julius Sans One", sans-serif;
+  margin-bottom: 30px;
+}
+/* .left-content h3 {
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+} */
+
+.right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-pic {
+  width: 40vw;
+  animation-name: about-pic;
+  animation-duration: 1s;
+}
+
+/*Animation*/
+.line {
+  margin: 0 auto;
+  border-right: 2px solid rgb(44, 43, 42);
+
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-size: 1.6vw;
+
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.anim-typewriter {
+  animation: typewriter 3s steps(50) 1s 1 normal both,
+    blinkTextCursor 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 25em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgb(44, 43, 42);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="./styles.css/footer.css" />
     <link rel="stylesheet" href="./styles.css/index.css" />
     <link rel="stylesheet" href="./styles.css/projects.css" />
+    <link rel="stylesheet" href="./styles.css/about.css" />
+    <link rel="stylesheet" href="./styles.css/resume.css" />
     <!-- google fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
     <link
@@ -20,7 +22,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="index-body">
     <!-- navigation bar -->
     <nav>
       <section class="logo-box">
@@ -68,24 +70,21 @@
       </div>
     </nav>
 
-    <section class="content-box">
-      <section class="left-content">
-        <h1>
-          Hello I'm <br />
-          Richi Kennedy
-        </h1>
-
-        <h3 class="line anim-typewriter">
-          A Frontend developer student at Hyper Island
-        </h3>
-      </section>
-      <article class="right-content">
-        <img
-          class="my-pic"
-          src="./assets/circlePic.svg"
-          alt="profile picture"
-        />
+    <section class="index-box">
+      <article class="left1">
+        <h1>Richi Kennedy</h1>
+        <br /><br />
+        <p>
+          Frontend Developer student at Hyper Island <br />
+          With a passion for creating beautiful websites.
+        </p>
       </article>
+      <ul class="right1">
+        <li><a href="./about.html"> About </a></li>
+        <li><a href="./projects.html"> Projects</a></li>
+        <!-- <li><a href="./resume.html"> Resume </a></li> -->
+        <li><a href="./contacts.html"> Contact </a></li>
+      </ul>
     </section>
 
     <footer>
@@ -115,5 +114,6 @@
         </li>
       </ul>
     </footer>
+    <script type="module" src="scripts/index.js"></script>
   </body>
 </html>
