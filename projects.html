@@ -7,12 +7,10 @@
     <title>RichardKennedyPortfolio</title>
     <link rel="stylesheet" href="/styles.css/style.css" />
     <link rel="stylesheet" href="./styles.css/media.css" />
-    <link rel="stylesheet" href="./styles.css/footer.css" />
-    <link rel="stylesheet" href="./styles.css/index.css" />
     <link rel="stylesheet" href="./styles.css/projects.css" />
     <!-- google fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
     <link
@@ -22,16 +20,16 @@
   </head>
   <body>
     <!-- navigation bar -->
+
     <nav>
       <section class="logo-box">
-        <a href="index.html">
-          <img class="logo" src="./assets/rklogo.svg" alt="logo"
+        <a href="index.html"
+          ><img class="logo" src="./assets/rklogo.svg" alt="logo"
         /></a>
       </section>
       <ul class="nav-links">
         <li><a href="./about.html"> About me </a></li>
-
-        <li><a href="./resume.html"> Resume </a></li>
+        <li><a href="./resume.html"> Projects</a></li>
         <li><a href="./contacts.html"> Contact </a></li>
       </ul>
 
@@ -67,16 +65,146 @@
         <div class="line-3"></div>
       </div>
     </nav>
-    <section class="media-box">
-      <ul class="media">
-        <li class="p1"><img src="" alt="" /></li>
-        <li class="p2"><img src="" alt="" /></li>
-        <li class="p3"><img src="" alt="" /></li>
-        <li class="p4"><img src="" alt="" /></li>
-      </ul>
+
+    <section class="project-box">
+      <article class="project-left">
+        <h1 class="project-animation">Projects</h1>
+        <p>
+          Frontend Developer student at Hyper Island With a passion for creating
+          beautiful websites. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Officiis, ab perferendis. Distinctio enim fugiat error vel fugit
+          iusto quaerat incidunt iure nisi vitae deserunt voluptatibus dolorum,
+          quam odio iste non?
+        </p>
+      </article>
+      <article class="project-right">
+        <ul class="projects">
+          <li id="shooterBtn" class="shooter">Space Shooter</li>
+          <li id="killerBtn" class="killerIndex">The killer quiz</li>
+          <li>Zodiac relative</li>
+          <li>Otto Tattoo Studio</li>
+        </ul>
+      </article>
+
+      <!-- Space shooter slide -->
+      <section id="space" class="space-container-slide">
+        <section class="space-intro-box">
+          <a href="./projects.html"
+            ><img class="exit" src="./assets/exit.svg" alt="exit"
+          /></a>
+          <h1 class="space-intro">Space Shooter</h1>
+        </section>
+
+        <div class="space-content">
+          <h2>
+            Space shooter is a 2D, arcade style, space invaders game created
+            using Phaser. I collaborated in a team of 3 that designed, developed
+            and deployed everything from scratch within a deadline of six weeks.
+            <br /><br />
+            The 80s would be proud!!!
+          </h2>
+          <ul class="space-top">
+            <li><img src="assets/space-1.png" alt="game image" /></li>
+            <li><img src="assets/space-2.png" alt="game image" /></li>
+            <li><img src="assets/space-3.png" alt="game image" /></li>
+          </ul>
+          <article class="button-box">
+            <a href="https://keen-booth-13eb9b.netlify.app/" target="_blank">
+              <button class="game-button">play game</button>
+            </a>
+            <a href="/projects.html">
+              <button class="back-to-projects">go back</button>
+            </a>
+          </article>
+        </div>
+      </section>
     </section>
 
-    <footer>
+    <!-- the killer quiz -->
+    <section id="killer" class="killer-container-slide">
+      <section class="killer-intro-box">
+        <a href="./projects.html"
+          ><img class="exit" src="./assets/exit.svg" alt="exit"
+        /></a>
+        <h1 class="killer-intro">The killer quiz</h1>
+      </section>
+
+      <section class="killer-content">
+        <h2>
+          Space shooter is a 2D, arcade style, space invaders game created using
+          Phaser. I collaborated in a team of 3 that designed, developed and
+          deployed everything from scratch within a deadline of six weeks.
+          <br />
+          <br />
+          The 80s would be proud!!!
+        </h2>
+        <ul class="killer-top">
+          <li><img src="assets/space-1.png" alt="game image" /></li>
+          <li><img src="assets/space-2.png" alt="game image" /></li>
+          <li><img src="assets/space-3.png" alt="game image" /></li>
+        </ul>
+        <article class="killer-button-box">
+          <a href="https://richikennedy.github.io/killer-quiz/" target="_blank"
+            ><button class="killer-button">Take the quiz</button></a
+          >
+          <button class="kBack-to-projects">projects</button>
+        </article>
+      </section>
+    </section>
+
+    <!-- Zodiac Relative -->
+    <!-- <section class="space-container-slide submitInactive">
+     
+      <section class="space-intro-box">
+        <h1 class="space-intro"> Space Shooter</h1>
+      </section>
+
+      <section class="space-content">
+        <h2> Space shooter is a 2D, arcade style, space invaders game created using Phaser.  I collaborated
+          in a team of 3 that designed, developed and deployed everything from scratch within a deadline of six weeks. <br> <br>
+        The 80s would be proud!!!  </h2>
+<ul class="space-top">
+  <li><img src="assets/space-1.png" alt="game image"></li>
+  <li><img src="assets/space-2.png" alt="game image"></li>
+  <li><img src="assets/space-3.png" alt="game image"></li>
+ 
+  
+</ul>
+<article class="button-box">
+ <a href="https://keen-booth-13eb9b.netlify.app/" target="_blank">
+   <a href="https://keen-booth-13eb9b.netlify.app/" target="_blank""><button class="game-button"> play game</button></a>
+   <a href="/resume.html"><button  class="back-to-projects"> projects </button></a>
+</article>
+      </section>
+
+
+    </section> -->
+    <!-- Otto Tattoo -->
+    <!-- <section class="space-container-slide submitInactive">
+     
+      <section class="space-intro-box">
+        <h1 class="space-intro"> Space Shooter</h1>
+      </section>
+
+      <section class="space-content">
+        <h2> Space shooter is a 2D, arcade style, space invaders game created using Phaser.  I collaborated
+          in a team of 3 that designed, developed and deployed everything from scratch within a deadline of six weeks. <br> <br>
+        The 80s would be proud!!!  </h2>
+<ul class="space-top">
+  <li><img src="assets/space-1.png" alt="game image"></li>
+  <li><img src="assets/space-2.png" alt="game image"></li>
+  <li><img src="assets/space-3.png" alt="game image"></li>
+ 
+  
+</ul>
+<article class="button-box">
+ <a href="https://keen-booth-13eb9b.netlify.app/" target="_blank">
+   <a href="https://keen-booth-13eb9b.netlify.app/" target="_blank""><button class="game-button"> play game</button></a>
+   <a href="/resume.html"><button  class="back-to-projects"> projects </button></a>
+</article>
+      </section> -->
+
+    <!-- <footer>
       <ul class="footer-box">
         <li>
           <a href="https://github.com/RichiKennedy" target="_blank">
@@ -102,6 +230,9 @@
           </a>
         </li>
       </ul>
-    </footer>
+    </footer> -->
+    <script type="module" src="scripts/index.js"></script>
+    <!-- href="https://richikennedy.github.io/killer-quiz/" target="_blank">  -->
+    <!-- href="https://keen-booth-13eb9b.netlify.app/" target="_blank" -->
   </body>
 </html>
