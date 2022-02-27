@@ -1,0 +1,13 @@
+.contactInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.simple {
+  font-family: "Julius Sans One", sans-serif;
+}
+.email {
+  font-family: "Julius Sans One", sans-serif;
+}
