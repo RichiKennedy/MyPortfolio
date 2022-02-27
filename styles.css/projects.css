@@ -1,4 +1,4 @@
-.project-box {
+section.project-box {
   width: 100vw;
   /* height: 91vh; */
   display: flex;
@@ -12,26 +12,27 @@
 .project-left {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+
   width: 40%;
-  font-size: 10px;
+
   color: #eee7e1;
-  margin-bottom: 300px;
+  margin-bottom: 39px;
   margin-left: 70px;
 }
 
 .project-left h1 {
-  font-size: 53px;
+  font-size: 40px;
   font-family: "Julius Sans One", sans-serif;
-
+  margin-bottom: 24px;
+  text-align: left;
   animation-name: projects;
   animation-duration: 1s;
   /* transform: translateX(-179%); */
 }
 
-.project-left p {
-  font-size: 1.8em;
-  width: 400px;
+p.projectP {
+  font-size: 13px;
+  width: 83%;
 }
 @keyframes projects {
   from {
@@ -51,25 +52,22 @@
   /* background-color: bisque; */
   justify-content: center;
 
-  width: 60%;
+  width: 60vw;
 
   gap: 100px;
   /* position: relative; */
 }
 
-ul.projects {
+.projects {
   text-transform: capitalize;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 
-  width: 100%;
   list-style: none;
-  margin-top: 50px;
 }
 .project-right li {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 5em;
+  font-size: 5vw;
   font-weight: 700;
   text-decoration: none;
   text-align: left;
@@ -142,7 +140,7 @@ img.exit {
 h1.space-intro {
   color: #eee7e1;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 145px;
+  font-size: 11vw;
   margin-top: 380px;
   margin-bottom: 337px;
 }
@@ -163,14 +161,25 @@ h1.space-intro {
 
 .space-content h2 {
   color: rgb(44, 43, 42);
-  width: 600px;
+  width: 48%;
   margin-bottom: 82px;
   font-family: "Julius Sans One", sans-serif;
   font-size: 26px;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 120px;
   margin-bottom: 120px;
   line-height: 1.6;
+}
+.git {
+  width: 30px;
+}
+
+.space-left-content {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
 }
 
 ul.space-top {
@@ -184,7 +193,7 @@ ul.space-top {
 }
 
 .space-top li img {
-  width: 900px;
+  width: 60vw;
   border-radius: 20px;
 }
 .button-box {
@@ -199,12 +208,12 @@ ul.space-top {
 .game-button {
   background-color: #eee7e1;
   color: rgb(44, 43, 42);
-  width: 312px;
+  width: 160px;
 
   border-radius: 20px;
   height: 60px;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 36px;
+  font-size: 23px;
   cursor: pointer;
 }
 
@@ -215,12 +224,11 @@ ul.space-top {
 .back-to-projects {
   background-color: #eee7e1;
   color: rgb(44, 43, 42);
-  width: 312px;
-
+  width: 160px;
   border-radius: 20px;
   height: 60px;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 36px;
+  font-size: 23px;
   cursor: pointer;
 }
 
@@ -231,22 +239,21 @@ ul.space-top {
 
 /* Killer quiz */
 .killer-container-slide {
-  /* display: flex; */
   align-items: center;
   flex-direction: column;
   top: 0;
   left: 0;
   transition: transform ease 1s;
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 70px; /* Location of the box */
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 70px;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: #eee7e1; /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #eee7e1;
   animation-name: killer-slide;
   animation-duration: 1s;
 }
@@ -276,7 +283,7 @@ ul.space-top {
 h1.killer-intro {
   color: #eee7e1;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 145px;
+  font-size: 11vw;
   margin-top: 380px;
   margin-bottom: 337px;
 }
@@ -294,13 +301,21 @@ img.Kexit {
   width: 100vw;
 }
 
+.killer-left-content {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
 .killer-content h2 {
   color: rgb(44, 43, 42);
-  width: 600px;
+  width: 48%;
   margin-bottom: 82px;
   font-family: "Julius Sans One", sans-serif;
   font-size: 26px;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 120px;
   margin-bottom: 120px;
   line-height: 1.6;
@@ -317,7 +332,7 @@ ul.killer-top {
 }
 
 .killer-top li img {
-  width: 800px;
+  width: 60vw;
   border-radius: 20px;
   margin-bottom: 30px;
 }
@@ -334,15 +349,13 @@ ul.killer-top {
 .killer-button {
   background-color: #eee7e1;
   color: rgb(44, 43, 42);
-  width: 312px;
+  width: 160px;
 
   border-radius: 20px;
   height: 60px;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 36px;
+  font-size: 23px;
   cursor: pointer;
-  animation-name: killer-slide-back;
-  animation-duration: 1s;
 }
 
 .killer-button:hover {
@@ -352,29 +365,157 @@ ul.killer-top {
 .kBack-to-projects {
   background-color: #eee7e1;
   color: rgb(44, 43, 42);
-  width: 312px;
+  width: 160px;
 
   border-radius: 20px;
   height: 60px;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 36px;
+  font-size: 23px;
   cursor: pointer;
-  animation-name: killer-slide-back;
+}
+
+.kBack-to-projects:hover {
+  background-color: rgb(44, 43, 42);
+  color: #eee7e1;
+}
+/* zodiac quiz */
+.zodiac-container-slide {
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  transition: transform ease 1s;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 70px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #eee7e1;
+  animation-name: zodiac-slide;
   animation-duration: 1s;
 }
 
-@keyframes killer-slide-back {
+@keyframes zodiac-slide {
   from {
-    transform: scale(1);
+    transform: scale(0.1);
     transition: ease-in;
   }
   to {
     transition: ease-in;
-    transform: scale(0.1);
+    transform: scale(1);
   }
 }
 
-.kBack-to-projects:hover {
+.zodiac-intro-box {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgb(44, 43, 42);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 61px;
+}
+
+h1.zodiac-intro {
+  color: #eee7e1;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 11vw;
+  margin-top: 380px;
+  margin-bottom: 337px;
+}
+
+img.Kexit {
+  margin-top: 10px;
+}
+
+.zodiac-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 100vw;
+}
+
+.zodiac-left-content {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
+.zodiac-content h2 {
+  color: rgb(44, 43, 42);
+  width: 48%;
+  margin-bottom: 82px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 26px;
+  /* text-align: center; */
+  margin-top: 120px;
+  margin-bottom: 120px;
+  line-height: 1.6;
+}
+
+ul.zodiac-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.zodiac-top li img {
+  width: 60vw;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.zodiac-button-box {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.zodiac-button {
+  background-color: #eee7e1;
+  color: rgb(44, 43, 42);
+  width: 160px;
+
+  border-radius: 20px;
+  height: 60px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.zodiac-button:hover {
+  background-color: rgb(44, 43, 42);
+  color: #eee7e1;
+}
+.zBack-to-projects {
+  background-color: #eee7e1;
+  color: rgb(44, 43, 42);
+  width: 160px;
+
+  border-radius: 20px;
+  height: 60px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.zBack-to-projects:hover {
   background-color: rgb(44, 43, 42);
   color: #eee7e1;
 }
