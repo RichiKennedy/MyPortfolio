@@ -28,6 +28,7 @@ nav {
   align-items: center;
   max-width: 100%;
   height: auto;
+  margin-left: 10vw;
 }
 .nav-links ul {
   display: flex;

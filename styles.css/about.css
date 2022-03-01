@@ -18,26 +18,29 @@
   align-items: center;
   color: rgb(44, 43, 42);
   width: 100vw;
-  height: 90vh;
 }
 
 .left-content {
   display: flex;
   align-items: center;
-
+  justify-items: center;
   flex-direction: column;
-  height: 77vh;
-  width: 100%;
-  word-wrap: break-word;
-  list-style: none;
+  height: 90vh;
+  width: 50%;
+  margin-top: 60px;
+  overflow: scroll;
+  /* word-wrap: break-word; */
 }
 .left-content h1 {
-  font-size: 100px;
+  color: rgb(44, 43, 42);
+  font-size: 7vw;
   font-family: "Julius Sans One", sans-serif;
   text-transform: capitalize;
   animation-name: about;
   animation-duration: 1s;
-  /* transform: translateX(-179%); */
+
+  width: 100%;
+  text-align: center;
 }
 @keyframes about {
   from {
@@ -59,15 +62,43 @@
     transform: scale(1);
   }
 }
+.aboutInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .left-content h2 {
-  font-size: 3vw;
-  width: 100%;
+  width: 68%;
   margin: 5px;
-  text-align: center;
+
   /* background-color: blanchedalmond; */
-  font-family: "Julius Sans One", sans-serif;
-  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.left-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  width: 68%;
+}
+.left-content a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  width: 68%;
+  text-decoration: none;
+  color: rgb(44, 43, 42);
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 68%;
+  list-style: none;
+  margin-top: 10px;
 }
 /* .left-content h3 {
   font-size: 30px;
@@ -79,11 +110,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
+  margin-bottom: 60px;
 }
 .my-pic {
-  width: 40vw;
+  width: 36vw;
   animation-name: about-pic;
   animation-duration: 1s;
+  margin-bottom: 57px;
 }
 
 /*Animation*/

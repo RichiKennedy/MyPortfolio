@@ -41,25 +41,32 @@
     margin-right: 20px;
     padding-left: 30px;
   }
-  .content-box {
+
+  /* about me */
+  .content-box1 {
+    display: flex;
     flex-direction: column-reverse;
-    gap: 0px;
-    justify-content: center;
+    align-items: center;
+    color: rgb(44, 43, 42);
+    width: 100vw;
   }
-  .left-content {
-    height: 40%;
-    justify-content: center;
-    height: 34%;
+  img.my-pic {
+    width: 270px;
+    margin-bottom: 0px;
   }
-  .left-content h3 {
-    font-size: 4vw;
+  .left-content h1.about-animation {
+    font-size: 50px;
+    margin-top: 21px;
   }
-  .right-content img {
-    width: 63vw;
+  article.left-content {
+    width: 100%;
+    margin-top: 0px;
+    height: 47vh;
+
+    /* word-wrap: break-word; */
   }
-  .left-content h1 {
-    font-size: 6vw;
-    margin: 0px;
+  article.right-content {
+    width: 100%;
     margin-bottom: 0px;
   }
 
