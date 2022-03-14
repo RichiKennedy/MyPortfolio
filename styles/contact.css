@@ -4,10 +4,61 @@
   justify-content: center;
   flex-direction: column;
   height: 80vh;
-}
-.simple {
+  width: 100vw;
   font-family: "Julius Sans One", sans-serif;
 }
-.email {
+.contactInfo h1.simple {
   font-family: "Julius Sans One", sans-serif;
+  margin-bottom: 40px;
+  font-size: 45px;
+  animation-name: contactHeader;
+  animation-duration: 1s;
+}
+
+@keyframes contactHeader {
+  from {
+    transform: scale(0.1);
+    transition: ease-in;
+  }
+  to {
+    transition: ease-in;
+    transform: scale(1);
+  }
+}
+
+address.adressContainer {
+  flex-direction: column;
+  display: flex;
+  font-size: 25px;
+}
+
+.email-box {
+  display: flex;
+  align-items: center;
+  font-family: "Julius Sans One", sans-serif;
+  margin-top: 20px;
+}
+.email-box a {
+  font-family: "Julius Sans One", sans-serif;
+  text-decoration: none;
+  color: #eee7e1;
+  margin-left: 10px;
+}
+.email-box a:hover {
+  /* transform: scale(1.03); */
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.mobile-box {
+  align-items: center;
+  font-family: "Julius Sans One", sans-serif;
+  margin-top: 20px;
+}
+.adress-box {
+  align-items: center;
+  font-family: "Julius Sans One", sans-serif;
+  margin-top: 20px;
+  color: #eee7e1;
 }

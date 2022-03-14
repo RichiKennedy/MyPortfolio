@@ -74,9 +74,6 @@ p.projectP {
   color: #eee7e1;
   cursor: pointer;
   margin-top: 80px;
-
-  /* transform: translateX(-50%);
-    transition: transform 0.6s ease-in; */
 }
 .project-right li:hover {
   font-style: italic;
@@ -115,13 +112,6 @@ p.projectP {
   }
 }
 
-/* .submitActive {
-  transform: translateX(0%);
-}
-.submitInactive {
-  transform: translateX(100%);
-} */
-
 .space-intro-box {
   display: flex;
   width: 90%;
@@ -131,6 +121,36 @@ p.projectP {
   justify-content: center;
   flex-direction: column;
   padding-bottom: 61px;
+}
+
+.button_slide_project {
+  color: rgb(44, 43, 42);
+  border: 2px solid rgb(44, 43, 42);
+  border-radius: 10px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 rgb(44, 43, 42);
+  transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.slide_left_project:hover {
+  box-shadow: inset 0 0 0 50px rgb(44, 43, 42);
+  color: #eee7e1;
+}
+
+#projectOuter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 img.exit {
@@ -161,13 +181,14 @@ h1.space-intro {
 
 .space-content h2 {
   color: rgb(44, 43, 42);
-  width: 48%;
+  width: 38%;
   margin-bottom: 82px;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
   /* text-align: center; */
   margin-top: 120px;
   margin-bottom: 120px;
+  margin-right: 30px;
   line-height: 1.6;
 }
 .git {
@@ -175,9 +196,9 @@ h1.space-intro {
 }
 
 .space-left-content {
-  width: 100%;
+  width: 90%;
   display: flex;
-
+  /* margin-left: 30px; */
   justify-content: space-evenly;
   flex-direction: row-reverse;
 }
@@ -193,48 +214,8 @@ ul.space-top {
 }
 
 .space-top li img {
-  width: 60vw;
+  width: 50vw;
   border-radius: 20px;
-}
-.button-box {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 55px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.game-button {
-  background-color: #eee7e1;
-  color: rgb(44, 43, 42);
-  width: 160px;
-
-  border-radius: 20px;
-  height: 60px;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 23px;
-  cursor: pointer;
-}
-
-.game-button:hover {
-  background-color: rgb(44, 43, 42);
-  color: #eee7e1;
-}
-.back-to-projects {
-  background-color: #eee7e1;
-  color: rgb(44, 43, 42);
-  width: 160px;
-  border-radius: 20px;
-  height: 60px;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 23px;
-  cursor: pointer;
-}
-
-.back-to-projects:hover {
-  background-color: rgb(44, 43, 42);
-  color: #eee7e1;
 }
 
 /* Killer quiz */
@@ -302,7 +283,7 @@ img.Kexit {
 }
 
 .killer-left-content {
-  width: 100%;
+  width: 90%;
   display: flex;
 
   justify-content: space-evenly;
@@ -311,13 +292,14 @@ img.Kexit {
 
 .killer-content h2 {
   color: rgb(44, 43, 42);
-  width: 48%;
+  width: 38%;
   margin-bottom: 82px;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
   /* text-align: center; */
   margin-top: 120px;
   margin-bottom: 120px;
+  margin-right: 30px;
   line-height: 1.6;
 }
 
@@ -332,7 +314,7 @@ ul.killer-top {
 }
 
 .killer-top li img {
-  width: 60vw;
+  width: 50vw;
   border-radius: 20px;
   margin-bottom: 30px;
 }
@@ -445,7 +427,7 @@ img.Kexit {
 .zodiac-left-content {
   width: 100%;
   display: flex;
-
+  font-family: "Montserrat", sans-serif;
   justify-content: space-evenly;
   flex-direction: row-reverse;
 }
@@ -454,7 +436,7 @@ img.Kexit {
   color: rgb(44, 43, 42);
   width: 48%;
   margin-bottom: 82px;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
   /* text-align: center; */
   margin-top: 120px;
@@ -463,6 +445,7 @@ img.Kexit {
 }
 
 ul.zodiac-top {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;

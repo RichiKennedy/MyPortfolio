@@ -1,31 +1,3 @@
-//  navSlide ();
-
-// function submitSlide() {
-
-//   const shooter = document.querySelector(".shooter");
-//   const spaceSlide = document.querySelector(".space-container-slide");
-
-//   shooter.addEventListener("click", function () {
-//     spaceSlide.classList.toggle("submitActive");
-//     spaceSlide.classList.toggle("submitInactive");
-//     console.log("im clicked");
-//   });
-// }
-// submitSlide();
-
-// function killerSubmitSlide() {
-
-//   const killer = document.querySelector(".killerIndex");
-//   const killerSlide = document.querySelector(".killer-container-slide");
-
-//   killer.addEventListener("click", function () {
-//     killerSlide.classList.toggle("killerSubmitActive");
-//     killerSlide.classList.toggle("killerSubmitInactive");
-//     console.log("im clicked");
-//   });
-// }
-// killerSubmitSlide();
-
 // Space Shooter modal
 let shooterSlideModal = document.getElementById("space");
 
@@ -33,7 +5,6 @@ let shooterSlideModal = document.getElementById("space");
 let shooterBtn = document.getElementById("shooterBtn");
 
 // Get the <span> element that closes the modal
-let goBack = document.getElementsByClassName("back-to-projects")[0];
 
 // When the user clicks the button, open the modal
 shooterBtn.onclick = function () {
@@ -41,9 +12,6 @@ shooterBtn.onclick = function () {
 };
 
 // When the user clicks on <span> (x), close the modal
-goBack.onclick = function () {
-  shooterSlideModal.style.display = "none";
-};
 
 // Get the modal
 let killerSlideModal = document.getElementById("killer");
@@ -52,7 +20,7 @@ let killerSlideModal = document.getElementById("killer");
 let killerBtn = document.getElementById("killerBtn");
 
 // Get the <span> element that closes the modal
-let kGoBack = document.getElementsByClassName("kBack-to-projects")[0];
+// let kGoBack = document.getElementsByClassName("kBack-to-projects")[0];
 
 // When the user clicks the button, open the modal
 killerBtn.onclick = function () {
@@ -60,9 +28,9 @@ killerBtn.onclick = function () {
 };
 
 // When the user clicks on <span> (x), close the modal
-kGoBack.onclick = function () {
-  killerSlideModal.style.display = "none";
-};
+// kGoBack.onclick = function () {
+//   killerSlideModal.style.display = "none";
+// };
 
 // Get the modal
 let zodiacSlideModal = document.getElementById("zodiac");

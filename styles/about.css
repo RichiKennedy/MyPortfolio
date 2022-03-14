@@ -33,7 +33,7 @@
 }
 .left-content h1 {
   color: rgb(44, 43, 42);
-  font-size: 7vw;
+  font-size: 5vw;
   font-family: "Julius Sans One", sans-serif;
   text-transform: capitalize;
   animation-name: about;
@@ -84,6 +84,7 @@
   font-size: 20px;
   width: 68%;
 }
+
 .left-content a {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -100,11 +101,18 @@
   list-style: none;
   margin-top: 10px;
 }
-/* .left-content h3 {
-  font-size: 30px;
-  margin: 5px;
-  text-align: center;
-} */
+
+.skills li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p.inTouch a:hover {
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: underline;
+}
 
 .right-content {
   display: flex;
