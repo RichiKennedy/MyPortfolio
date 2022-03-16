@@ -228,7 +228,7 @@ ul.space-top {
   display: none;
   position: fixed;
   z-index: 10;
-  padding-top: 70px;
+  padding-top: 40px;
   left: 0;
   top: 0;
   width: 100%;
@@ -328,7 +328,7 @@ ul.killer-top {
   display: none;
   position: fixed;
   z-index: 10;
-  padding-top: 70px;
+  padding-top: 40px;
   left: 0;
   top: 0;
   width: 100%;
