@@ -26,4 +26,5 @@
 .slide_left:hover {
   box-shadow: inset 0 0 0 50px #eee7e1;
   color: rgb(44, 43, 42);
+  text-decoration: line-through;
 }

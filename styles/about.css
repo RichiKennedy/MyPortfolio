@@ -7,10 +7,13 @@
   right: 0;
   bottom: 0;
   z-index: -1;
+}
 
-  /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
+#aboutNav li a {
+  color: rgb(44, 43, 42);
+}
+#aboutNav li a:hover {
+  text-decoration: line-through;
 }
 .content-box1 {
   display: flex;
@@ -33,9 +36,9 @@
 }
 .left-content h1 {
   color: rgb(44, 43, 42);
-  font-size: 5vw;
+  font-size: 4vw;
   font-family: "Julius Sans One", sans-serif;
-  text-transform: capitalize;
+
   animation-name: about;
   animation-duration: 1s;
 
@@ -72,25 +75,25 @@
 .left-content h2 {
   width: 68%;
   margin: 5px;
-
   /* background-color: blanchedalmond; */
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 900;
 }
 
 .left-content p {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   width: 68%;
 }
 
 .left-content a {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   width: 68%;
   text-decoration: none;
   color: rgb(44, 43, 42);
+  text-decoration: underline;
 }
 
 .skills {

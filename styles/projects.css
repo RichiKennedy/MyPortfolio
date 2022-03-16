@@ -4,7 +4,7 @@ section.project-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  /* gap: 50px; */
   overflow: hidden;
   position: relative;
 }
@@ -31,7 +31,7 @@ section.project-box {
 }
 
 p.projectP {
-  font-size: 13px;
+  font-size: 19px;
   width: 83%;
 }
 @keyframes projects {
@@ -142,6 +142,7 @@ p.projectP {
 .slide_left_project:hover {
   box-shadow: inset 0 0 0 50px rgb(44, 43, 42);
   color: #eee7e1;
+  text-decoration: line-through;
 }
 
 #projectOuter {
@@ -318,50 +319,8 @@ ul.killer-top {
   border-radius: 20px;
   margin-bottom: 30px;
 }
-
-.killer-button-box {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 55px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.killer-button {
-  background-color: #eee7e1;
-  color: rgb(44, 43, 42);
-  width: 160px;
-
-  border-radius: 20px;
-  height: 60px;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 23px;
-  cursor: pointer;
-}
-
-.killer-button:hover {
-  background-color: rgb(44, 43, 42);
-  color: #eee7e1;
-}
-.kBack-to-projects {
-  background-color: #eee7e1;
-  color: rgb(44, 43, 42);
-  width: 160px;
-
-  border-radius: 20px;
-  height: 60px;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 23px;
-  cursor: pointer;
-}
-
-.kBack-to-projects:hover {
-  background-color: rgb(44, 43, 42);
-  color: #eee7e1;
-}
-/* zodiac quiz */
-.zodiac-container-slide {
+/* Otto Studios */
+.otto-container-slide {
   align-items: center;
   flex-direction: column;
   top: 0;
@@ -377,11 +336,11 @@ ul.killer-top {
   height: 100%;
   overflow: auto;
   background-color: #eee7e1;
-  animation-name: zodiac-slide;
+  animation-name: otto-slide;
   animation-duration: 1s;
 }
 
-@keyframes zodiac-slide {
+@keyframes otto-slide {
   from {
     transform: scale(0.1);
     transition: ease-in;
@@ -392,7 +351,7 @@ ul.killer-top {
   }
 }
 
-.zodiac-intro-box {
+.otto-intro-box {
   display: flex;
   width: 90%;
   margin-left: 5%;
@@ -403,7 +362,7 @@ ul.killer-top {
   padding-bottom: 61px;
 }
 
-h1.zodiac-intro {
+h1.otto-intro {
   color: #eee7e1;
   font-family: "Julius Sans One", sans-serif;
   font-size: 11vw;
@@ -411,11 +370,11 @@ h1.zodiac-intro {
   margin-bottom: 337px;
 }
 
-img.Kexit {
+img.oexit {
   margin-top: 10px;
 }
 
-.zodiac-content {
+.otto-content {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -424,28 +383,28 @@ img.Kexit {
   width: 100vw;
 }
 
-.zodiac-left-content {
-  width: 100%;
+.otto-left-content {
+  width: 90%;
   display: flex;
-  font-family: "Montserrat", sans-serif;
+
   justify-content: space-evenly;
   flex-direction: row-reverse;
 }
 
-.zodiac-content h2 {
+.otto-content h2 {
   color: rgb(44, 43, 42);
-  width: 48%;
+  width: 38%;
   margin-bottom: 82px;
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
   /* text-align: center; */
   margin-top: 120px;
   margin-bottom: 120px;
+  margin-right: 30px;
   line-height: 1.6;
 }
 
-ul.zodiac-top {
-  font-family: "Montserrat", sans-serif;
+ul.otto-top {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -455,50 +414,8 @@ ul.zodiac-top {
   gap: 30px;
 }
 
-.zodiac-top li img {
-  width: 60vw;
+.otto-top li img {
+  width: 50vw;
   border-radius: 20px;
   margin-bottom: 30px;
-}
-
-.zodiac-button-box {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 55px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.zodiac-button {
-  background-color: #eee7e1;
-  color: rgb(44, 43, 42);
-  width: 160px;
-
-  border-radius: 20px;
-  height: 60px;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 23px;
-  cursor: pointer;
-}
-
-.zodiac-button:hover {
-  background-color: rgb(44, 43, 42);
-  color: #eee7e1;
-}
-.zBack-to-projects {
-  background-color: #eee7e1;
-  color: rgb(44, 43, 42);
-  width: 160px;
-
-  border-radius: 20px;
-  height: 60px;
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 23px;
-  cursor: pointer;
-}
-
-.zBack-to-projects:hover {
-  background-color: rgb(44, 43, 42);
-  color: #eee7e1;
 }
