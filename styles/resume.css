@@ -8,6 +8,10 @@
   overflow: scroll;
 }
 
+.resume-container img {
+  width: 640px;
+}
+
 .button_slide {
   color: #eee7e1;
   border: 2px solid #eee7e1;

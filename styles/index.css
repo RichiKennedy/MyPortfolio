@@ -14,7 +14,7 @@
 }
 .index-box {
   width: 100vw;
-  height: 80vh;
+  height: 94vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,11 +45,11 @@
   justify-content: center;
 
   list-style: none;
-  margin-right: 60px;
+  margin-right: 100px;
   text-transform: capitalize;
   width: 40%;
   height: 80vh;
-  gap: 10px;
+  gap: 20px;
 }
 
 .right1 li a {

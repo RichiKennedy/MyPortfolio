@@ -1,9 +1,9 @@
-section.project-box {
+.project-box {
   width: 100vw;
-  /* height: 91vh; */
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+
   /* gap: 50px; */
   overflow: hidden;
   position: relative;
@@ -16,7 +16,7 @@ section.project-box {
   width: 40%;
 
   color: #eee7e1;
-  margin-bottom: 39px;
+  /* margin-bottom: 39px; */
   margin-left: 70px;
 }
 
@@ -31,7 +31,7 @@ section.project-box {
 }
 
 p.projectP {
-  font-size: 19px;
+  font-size: 1.3vw;
   width: 83%;
 }
 @keyframes projects {
@@ -62,8 +62,8 @@ p.projectP {
   text-transform: capitalize;
   display: flex;
   flex-direction: column;
-
   list-style: none;
+  margin-bottom: 228px;
 }
 .project-right li {
   font-family: "Julius Sans One", sans-serif;

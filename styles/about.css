@@ -9,6 +9,10 @@
   z-index: -1;
 }
 
+#aboutBurger div {
+  background-color: rgb(44, 43, 42);
+}
+
 #aboutNav li a {
   color: rgb(44, 43, 42);
 }
