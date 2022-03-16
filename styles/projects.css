@@ -418,3 +418,34 @@ ul.otto-top {
   border-radius: 20px;
   margin-bottom: 30px;
 }
+
+/* Zodiac  */
+
+#zodiacBtn {
+  width: auto;
+
+  position: relative;
+}
+
+.zodiacFontOverlay {
+  display: flex;
+  color: white;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 3vw;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.zodiacFontOverlay:hover {
+  opacity: 1;
+}
