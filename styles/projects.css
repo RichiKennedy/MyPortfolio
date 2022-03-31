@@ -160,9 +160,10 @@ img.exit {
 h1.space-intro {
   color: #eee7e1;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 11vw;
+  font-size: 9vw;
   margin-top: 380px;
   margin-bottom: 337px;
+  text-align: center;
 }
 
 .space-info {
@@ -264,9 +265,10 @@ ul.space-top {
 h1.killer-intro {
   color: #eee7e1;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 11vw;
+  font-size: 9vw;
   margin-top: 380px;
   margin-bottom: 337px;
+  text-align: center;
 }
 
 img.Kexit {
@@ -364,9 +366,10 @@ ul.killer-top {
 h1.otto-intro {
   color: #eee7e1;
   font-family: "Julius Sans One", sans-serif;
-  font-size: 11vw;
+  font-size: 9vw;
   margin-top: 380px;
   margin-bottom: 337px;
+  text-align: center;
 }
 
 img.oexit {

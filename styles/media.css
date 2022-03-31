@@ -178,6 +178,10 @@
 
   ul.projects {
     align-items: center;
+    margin-bottom: 0px;
+  }
+  article.project-right .projects {
+    margin-bottom: 0px;
   }
 
   .projects li {
