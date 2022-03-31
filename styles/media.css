@@ -144,6 +144,10 @@
     overflow: scroll;
   }
 
+  .project-box article {
+    width: 100vw;
+  }
+
   article.project-left {
     display: flex;
     justify-content: center;
