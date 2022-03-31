@@ -131,6 +131,7 @@
 
     /* word-wrap: break-word; */
   }
+
   article.right-content {
     width: 100%;
     margin-bottom: 0px;
@@ -269,6 +270,28 @@
   /* footer */
   footer ul.footer-box {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.aboutInfo h2 {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .aboutInfo p.aboutP {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .aboutInfo ul.skills {
+    width: 100%;
+  }
+  .aboutInfo p.inTouch {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
   }
 }
 
