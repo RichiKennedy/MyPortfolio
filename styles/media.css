@@ -51,7 +51,8 @@
     right: 0px;
     height: 100vh;
     top: 0vh;
-    background-color: salmon;
+    background-color: rgb(44, 43, 42);
+
     flex-direction: column;
     display: flex;
     justify-content: space-around;

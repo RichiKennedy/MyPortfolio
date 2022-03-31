@@ -1,29 +1,8 @@
-.about-body::before {
-  content: "";
-  position: fixed;
-  background-color: #eee7e1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-#aboutBurger div {
-  background-color: rgb(44, 43, 42);
-}
-
-#aboutNav li a {
-  color: rgb(44, 43, 42);
-}
-#aboutNav li a:hover {
-  text-decoration: line-through;
-}
 .content-box1 {
   display: flex;
 
   align-items: center;
-  color: rgb(44, 43, 42);
+  color: #eee7e1;
   width: 100vw;
 }
 
@@ -39,7 +18,7 @@
   /* word-wrap: break-word; */
 }
 .left-content h1 {
-  color: rgb(44, 43, 42);
+  color: #eee7e1;
   font-size: 4vw;
   font-family: "Julius Sans One", sans-serif;
 
@@ -96,7 +75,7 @@
   font-size: 26px;
   width: 68%;
   text-decoration: none;
-  color: rgb(44, 43, 42);
+  color: #eee7e1;
   text-decoration: underline;
 }
 
@@ -113,6 +92,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.skills li img {
+  width: 40px;
+  height: 40px;
 }
 
 p.inTouch a:hover {
@@ -138,7 +122,7 @@ p.inTouch a:hover {
 /*Animation*/
 .line {
   margin: 0 auto;
-  border-right: 2px solid rgb(44, 43, 42);
+  border-right: 2px solid #eee7e1;
 
   text-align: center;
   white-space: nowrap;
@@ -166,7 +150,7 @@ p.inTouch a:hover {
 
 @keyframes blinkTextCursor {
   from {
-    border-right-color: rgb(44, 43, 42);
+    border-right-color: #eee7e1;
   }
   to {
     border-right-color: transparent;
