@@ -4,12 +4,13 @@
   justify-content: center;
   flex-direction: column;
   width: 100vw;
-
+  height: 95vh;
+  object-fit: fill;
   overflow: scroll;
 }
 
 .resume-container img {
-  width: 640px;
+  width: 600px;
 }
 
 .button_slide {
