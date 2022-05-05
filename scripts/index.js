@@ -8,13 +8,13 @@ function navSlide() {
     navBar.classList.toggle("nav-active");
 
     for (let i = 0; i < navLinks.length; i++) {
-      console.log("i :", i, "current link: ", navLinks[i]);
       let link = navLinks[i];
+      console.log("i :", i, "current link: ", navLinks[i]);
 
       if (link.style.animation) {
         link.style.animation = "";
       } else {
-        link.style.animation = `navLinkFade 0.5 ease forwards ${i / 1.2}s`;
+        link.style.animation = `navLinkFade 0.5 ease forwards ${i / 1.1}s`;
       }
     }
     // burger animation x
